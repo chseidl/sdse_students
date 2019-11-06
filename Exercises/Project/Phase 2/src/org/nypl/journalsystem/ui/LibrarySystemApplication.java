@@ -13,7 +13,7 @@ public class LibrarySystemApplication extends LibrarySystemApplicationBase {
 	/**
 	 * Creates the library system and initializes it with the stored data.
 	 * 
-	 *  @return The library system.
+	 * @return The library system.
 	 */
 	@Override
 	protected ILibrarySystem loadLibrarySystem() throws Exception {
