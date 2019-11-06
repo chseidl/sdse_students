@@ -12,7 +12,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 public class AESCrypter implements ICrypter {
 
-	public SecretKeySpec createSecretKeySpec(String plainKey) {
+	protected SecretKeySpec createSecretKeySpec(String plainKey) {
 		try {
 			byte[] plainKeyBytes = plainKey.getBytes("UTF-8");
 			

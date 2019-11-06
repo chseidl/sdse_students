@@ -22,12 +22,20 @@ public abstract class AbstractPasswordLibraryLoader implements IPasswordLibraryL
 	}
 
 	protected String loadFromFile(File file) throws FileNotFoundException {
+		if (file == null) {
+			throw new FileNotFoundException();
+		}
+		
+		if (file == null || !file.exists()) {
+			throw new FileNotFoundException("File " + file.getPath() + " could not be found.");
+		}
+		
 		try {
 			byte[] fileContent = Files.readAllBytes(file.toPath());
 			return new String(fileContent, StandardCharsets.UTF_8);
 		} catch(IOException e) {
 			e.printStackTrace();
-			throw new FileNotFoundException("File " + file.getPath() + " could not be found.");
+			throw new FileNotFoundException("File " + file.getPath() + " could not be read.");
 		}
 	}
 	
