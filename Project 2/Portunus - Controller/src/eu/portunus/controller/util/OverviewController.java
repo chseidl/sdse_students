@@ -218,7 +218,7 @@ public class OverviewController {
 
 		if (result.isPresent()) {
 			IPasswordRecord editedPasswordRecord = result.get();
-			doAddPasswordRecord(editedPasswordRecord);
+			updatePasswordRecord(editedPasswordRecord);
 		}
 	}
 	
