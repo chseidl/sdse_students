@@ -1,0 +1,21 @@
+ID, Title, AuthorIDs, ISSN
+1, "Larger than life", [1], 2451-9294
+2, "The genome map", [2; 8], 1476-4687
+3, "Language learning models", [3; 11], 0346-2511
+4, "Questions answered", [4; 6], 0018-1560
+5, "Data visualization", [5; 11; 16], 0346-2511
+6, "Biological processes", [6; 7], 2451-9294
+7, "Evolution strikes back", [7; 18], 2451-9294
+8, "Listening strategies", [8; 5], 0346-2511
+9, "Molecular focus", [9; 7], 2451-9294
+10, "Small scales", [10; 11], 2451-9294
+11, "Learn teaching", [11; 17; 20], 0018-1560
+12, "Seafloor spreading", [12; 5], 1476-4687
+13, "Unfold the protein", [13; 15], 2451-9294
+14, "Order and disorder", [14; 1], 0147-2011
+15, "Great university atmosphere", [15; 4; 5; 16], 0018-1560
+16, "Teaching people born in the 2000s", [16; 5], 0346-2511
+17, "Cure cancer", [17; 9], 2451-9294
+18, "Cells", [18; 6], 2451-9294
+19, "Metabolism explained", [19; 4], 2451-9294
+20, "Private school challenges", [20; 8], 0346-2511
