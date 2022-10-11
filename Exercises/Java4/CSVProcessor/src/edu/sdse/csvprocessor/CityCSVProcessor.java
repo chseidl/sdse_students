@@ -1,8 +1,10 @@
 package edu.sdse.csvprocessor;
+//import edu.sdse.CityRecord;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+
 
 public class CityCSVProcessor {
 	
@@ -23,9 +25,10 @@ public class CityCSVProcessor {
 				String city = convertToString(rawValues[2]);
 				int population = convertToInt(rawValues[3]);
 				
-				System.out.println("id: " + id + ", year: " + year + ", city: " + city + ", population: " + population);
+				//System.out.println("id: " + id + ", year: " + year + ", city: " + city + ", population: " + population);
 				
-				//TODO: Extend the program to process entries!
+				CityRecord cityRecord = new CityRecord(id, year, city, population);
+				System.out.println(cityRecord);
 			}
 		} catch (Exception e) {
 			System.err.println("An error occurred:");
@@ -61,3 +64,5 @@ public class CityCSVProcessor {
 		reader.readAndProcess(csvFile);
 	}
 }
+
+
