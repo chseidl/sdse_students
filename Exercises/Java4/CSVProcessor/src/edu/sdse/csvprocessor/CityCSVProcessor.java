@@ -53,6 +53,7 @@ public class CityCSVProcessor {
 				cityRecordsMap.get(city).add(cityRecord);
 				//System.out.println(cityRecordsMap.get(city));
 			}
+			// call computeStats method to print out stats for each city
 			computeStats(cityRecordsMap);
 			
 		} catch (Exception e) {
@@ -92,15 +93,20 @@ public class CityCSVProcessor {
 	public void computeStats(Map<String, List<CityRecord>> cityMap) {
 		
 		for (Map.Entry<String, List<CityRecord>> entry : cityRecordsMap.entrySet()) {
-			//System.out.println(entry.getKey()+entry.getValue());
+			/*entry.getKey() gets the key of that entry
+			 *entry.getValue() gets the value at that entry. In this case, the list of cityRecords
+			 * */
+			//System.out.println(entry.getKey()+entry.getValue()); 
+			
 			List<CityRecord> recordList = entry.getValue();
-			String city = entry.getKey();
-			int entries = recordList.size();
+			String city = entry.getKey();    // current key (city)
+			int entries = recordList.size(); // number of records
 			
 			int min = 2050;
 			int max = 0;
 			int popSum = 0;
 			
+			// loop through records at that key
 			for (CityRecord record : recordList) {
 				System.out.println(record);
 				
@@ -116,10 +122,9 @@ public class CityCSVProcessor {
 				popSum += population;
 			}
 			int avePop = popSum/entries;
-			System.out.println(String.format("Average population of %s (%d-%d; %d Entries): %d ",city,min,max,entries,avePop));
+			System.out.println(String.format("Average population of %s (%d-%d; %d Entries): %d",city,min,max,entries,avePop));
 		}
 	}
-	
 }
 
 
