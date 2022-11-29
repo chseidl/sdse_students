@@ -52,7 +52,7 @@ public class LibrarySystem {
 	
 	protected void loadAuthors() throws FileNotFoundException, IOException {
 		//Load authors from file 
-		authors = new HashMap<>();
+		authors = new HashMap<>(); // should this be here or at the top?
 		
 		Reader file = new FileReader("data/Authors.csv");
 		Iterable<CSVRecord> records = CSVFormat.RFC4180.withFirstRecordAsHeader().parse(file);
