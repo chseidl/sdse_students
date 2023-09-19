@@ -21,7 +21,7 @@ Navigate to the "portunus" root folder (i.e., the one where the bash script file
 - Subsequently, you will be able to start the project from the command line via
 `./mvnw javafx:run -pl launcher`
 
-*Windows Users*: use the "mvnw.cmd" script with the same parameters or run the above command in [WSL](https://learn.microsoft.com/en-us/windows/wsl/about).
+*Windows Users*: Use the "mvnw.cmd" script with the same parameters or run the above command in [WSL](https://learn.microsoft.com/en-us/windows/wsl/about).
 
 **Beware**: You might need to install a Java version that matches the version specified in Maven (and configure it as default Java version for your OS).
 Maven will refuse to work if this causes problems and print respective messages to the console.
