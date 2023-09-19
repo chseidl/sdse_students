@@ -4,10 +4,10 @@ Material for Students for the Lecture "Software Development and Software Enginee
 &nbsp;
 
 ## Setup of project 2
-Project is larger and more sophisticated than Project 1.
+Project 2 is larger and more sophisticated than Project 1.
 Therefore, we manage its otherwise extremely tedious installation and setup process with the software project management tool [Apache Maven](https://maven.apache.org/).
 
-Basically, you have two options for setting up the project to then start developing on it, i.e., by installing Maven directly into your IDE or by simply using the command line (no installation required).
+Basically, you have two options for setting up the project to then start working on it, i.e., by (1) installing Maven directly into your IDE or by (2) simply using the command line (no further preparation required).
 
 Which option you choose is up to you, although one could argue that the IDE route will speed up your development process slightly.
 
@@ -15,7 +15,7 @@ Which option you choose is up to you, although one could argue that the IDE rout
 
 #### Installation via Command Line
 
-Navigate to the "portunus" root folder (i.e., the one where the bash script file file "mvnw" is contained) in your command line and execute.
+Navigate to the "portunus" root folder (i.e., the one where the bash script file "mvnw" is contained) in your command line.
 
 - Install the project via `./mvnw clean install`
 - Subsequently, you will be able to start the project from the command line via
@@ -41,12 +41,12 @@ What you have to do in Eclipse is:
    - At some point, the dialog will close, but the installation will continue (see bottom-right corner of IDE window)
    - You might need to restart the IDE
 
-- Import the projects (refer to this [this tutorial](https://www.lagomframework.com/documentation/1.6.x/java/EclipseMavenInt.html) for more screenshots)
+- Import the projects (mind the screenshots below and refer to this [this tutorial](https://www.lagomframework.com/documentation/1.6.x/java/EclipseMavenInt.html) for more details)
   - Make sure to use the option "Existing Maven Projects"
   - Choose the "portunus" folder as "Root Directory" in the dialog (see Screenshot 1)
   - Once the projects are imported, right-click the project "portunus" (is the root project)
     - In the context menu, select "Run As" > "Maven Install"
-    - This process will setup up the project - most notably it will install all dependencies for you
+    - This process will setup up the projects - most notably, it will install all dependencies for you
   - You can now launch the application!
     - Right-click the project "portunus" again
     - In the context menu, select "Run As" > "Maven build..."
