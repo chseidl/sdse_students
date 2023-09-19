@@ -54,8 +54,11 @@ What you have to do in Eclipse is:
       - Paste into the text field "Goals" the following: `javafx:run -pl launcher` (see Screenshot 2)
       - Apply you changes and run the application
       - Everything worked if a small window appears that asks you for a password (see Screenshot 3)
-  - That's it, you can now work on the project
-    - You can launch it via the green play button (or use CTRL+F11)
+
+**That's it**, you can now work on the project.
+You can launch it via the green play button (or use CTRL+F11).
+
+&nbsp;
 
 **Screenshot 1**: Project Import Dialog  
 ![s](ReadMe/import-dialog.png?raw=true)
