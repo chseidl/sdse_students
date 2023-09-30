@@ -10,7 +10,7 @@ Therefore, we manage its otherwise extremely tedious installation and setup proc
 Basically, you have two options for setting up the project to then start working on it, i.e., by (1) installing Maven directly into your IDE or by (2) simply using the command line (no further preparation required).  
 Which option you choose is up to you, although one could argue that the IDE route will speed up your development process slightly.
 
-**Easiest solution**: Download [Eclipse Package for Java (2023-09)](https://www.eclipse.org/downloads/packages/release/2023-09/r/eclipse-ide-enterprise-java-and-web-developers) and continue directly with Step 2 in Section "Installation via IDE Plug-Ins/Extensions" below.
+**Easiest solution**: Download [Eclipse Package for Java (2023-09)](https://www.eclipse.org/downloads/packages/release/2023-09/r/eclipse-ide-enterprise-java-and-web-developers) and continue directly with Step 2 in Section [Installation via IDE Plug-Ins/Extensions](#installation-via-ide-plug-insextensions) below.
 
 &nbsp;
 
